@@ -1,0 +1,48 @@
+.todo-container {
+  width: 80%;
+  border: 2px dotted black;
+  margin-left: 10%;
+  margin-top: 2%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  background-color: white;
+  margin: 10%;
+}
+
+.items-container {
+  text-align: left;
+  margin: 20px;
+  background-color: white;
+}
+
+.kg-button {
+  min-width: 80px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.kg-row {
+  margin: 10px 5px;
+  background-color: white;
+}
+.add-button {
+  min-width: 80px;
+  margin-right: 25px;
+}
+
+.inputText {
+  border-radius: 10px;
+}
+.inputDate {
+  border-radius: 10px;
+}

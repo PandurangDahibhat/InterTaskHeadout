@@ -1,0 +1,43 @@
+.stylling {
+  position: absolute;
+  left: 45%;
+}
+
+.calculator {
+  border: 1px solid rgba(9, 9, 9, 0.153);
+  width: 210px;
+
+  border-radius: 8px;
+  background-color: rgb(249, 236, 221);
+}
+h1 {
+  width: 210px;
+  height: 40px;
+  text-align: center;
+  border: 0.5px dotted rgba(9, 9, 9, 0.153);
+  border-radius: 10px;
+  background-color: azure;
+}
+* {
+  animation-duration: 1s;
+  animation-name: slidein;
+  background-color: rgb(50, 49, 49);
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 210px;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 210px;
+  }
+}

@@ -1,0 +1,10 @@
+.foodInput:hover {
+  background-color: rgb(227, 242, 242);
+  border-color: aqua;
+  border-radius: 5px;
+}
+.foodInput {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0px;
+}
